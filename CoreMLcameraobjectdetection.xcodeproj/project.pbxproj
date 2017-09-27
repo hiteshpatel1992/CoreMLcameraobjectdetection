@@ -16,6 +16,8 @@
 		1B6BD32E1F7BC6FD009C34CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6BD32D1F7BC6FD009C34CC /* main.m */; };
 		1B6BD3381F7BC6FD009C34CC /* CoreMLcameraobjectdetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6BD3371F7BC6FD009C34CC /* CoreMLcameraobjectdetectionTests.m */; };
 		1B6BD3431F7BC6FD009C34CC /* CoreMLcameraobjectdetectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6BD3421F7BC6FD009C34CC /* CoreMLcameraobjectdetectionUITests.m */; };
+		1B6BD3521F7BCE6B009C34CC /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1B6BD3511F7BCC89009C34CC /* SqueezeNet.mlmodel */; };
+		1B6BD3531F7BCE6E009C34CC /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1B6BD3501F7BCC89009C34CC /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		1B6BD33E1F7BC6FD009C34CC /* CoreMLcameraobjectdetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMLcameraobjectdetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6BD3421F7BC6FD009C34CC /* CoreMLcameraobjectdetectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMLcameraobjectdetectionUITests.m; sourceTree = "<group>"; };
 		1B6BD3441F7BC6FD009C34CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B6BD3501F7BCC89009C34CC /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		1B6BD3511F7BCC89009C34CC /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				1B6BD31F1F7BC6FD009C34CC /* ViewController.m */,
 				1B6BD3211F7BC6FD009C34CC /* Main.storyboard */,
 				1B6BD3271F7BC6FD009C34CC /* Assets.xcassets */,
+				1B6BD3501F7BCC89009C34CC /* Resnet50.mlmodel */,
+				1B6BD3511F7BCC89009C34CC /* SqueezeNet.mlmodel */,
 				1B6BD3291F7BC6FD009C34CC /* LaunchScreen.storyboard */,
 				1B6BD32C1F7BC6FD009C34CC /* Info.plist */,
 				1B6BD32D1F7BC6FD009C34CC /* main.m */,
@@ -268,10 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6BD3521F7BCE6B009C34CC /* SqueezeNet.mlmodel in Sources */,
 				1B6BD3261F7BC6FD009C34CC /* CoreMLcameraobjectdetection.xcdatamodeld in Sources */,
 				1B6BD3201F7BC6FD009C34CC /* ViewController.m in Sources */,
 				1B6BD32E1F7BC6FD009C34CC /* main.m in Sources */,
 				1B6BD31D1F7BC6FD009C34CC /* AppDelegate.m in Sources */,
+				1B6BD3531F7BCE6E009C34CC /* Resnet50.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
